@@ -32,6 +32,7 @@ public class MainActivity extends Activity {
         }
 
         textoExibir.setText(brandsFormatted);
+        textoExibir.setText(recebeValorSpinner);
 
 
     }
