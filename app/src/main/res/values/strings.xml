@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">andooo</string>
+    <string name="find_bear">Find Bear!</string>
+    <string name="brands" />
+
+    //Array de String para o Spinner
+    <string-array name="Tipos_cervejas">
+        <item>Itaipava</item>
+        <item>Ambev</item>
+        <item>Skim</item>
+        <item>Skol</item>
+        <item>Proibida</item>
+    </string-array>
+
+</resources>
