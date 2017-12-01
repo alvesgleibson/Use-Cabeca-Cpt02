@@ -24,15 +24,15 @@ public class MainActivity extends Activity {
 
 
         List<String> brandsList = beer.getTextoExibir(recebeValorSpinner);
-        StringBuilder brandsFormatted = new StringBuilder();
+        StringBuilder concatenarStringerMetodoJavaPuro = new StringBuilder();
         for (String brand: brandsList) {
 
-            brandsFormatted.append(brand).append('\n');
+            concatenarStringerMetodoJavaPuro.append(brand).append('\n');
 
         }
 
-        textoExibir.setText(brandsFormatted);
-        textoExibir.setText(recebeValorSpinner);
+        textoExibir.setText(concatenarStringerMetodoJavaPuro);
+
 
 
     }
